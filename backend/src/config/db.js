@@ -1,6 +1,15 @@
 import mongoose from "mongoose";
 import { embeddedStore } from "./embeddedStore.js";
 import bcrypt from "bcryptjs";
+import dotenv from "dotenv";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.resolve(__dirname, "../../.env") });
+dotenv.config({ path: path.resolve(__dirname, "../../../.env") });
 
 let useEmbedded = false;
 
@@ -10,11 +19,11 @@ export function isEmbedded() {
 
 export async function connectDB() {
   const uri = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/hotelpro";
+  const timeoutMs = uri.includes("mongodb+srv") ? 8000 : 2500;
 
   try {
-    // Attempt connection with short timeout so it doesn't hang if no local mongod
     await mongoose.connect(uri, {
-      serverSelectionTimeoutMS: 2000
+      serverSelectionTimeoutMS: timeoutMs
     });
     console.log("Connected to MongoDB at:", uri.replace(/:[^:]*@/, ":****@"));
     useEmbedded = false;
