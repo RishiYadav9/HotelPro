@@ -1,0 +1,268 @@
+{
+  "users": [
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c90001",
+      "name": "HotelPro Admin",
+      "email": "admin@hotelpro.demo",
+      "password": "$2a$12$Ab6rAJLiPg3NEjH/XWjCM.HZDN9fB40QwbvHdpY4RFOwEOPt6sziy",
+      "role": "admin",
+      "phone": "+91 98765 43210",
+      "createdAt": "2026-10-27T16:40:12.852Z",
+      "updatedAt": "2026-10-27T16:40:13.828Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c90002",
+      "name": "Front Desk Staff",
+      "email": "staff@hotelpro.demo",
+      "password": "$2a$12$s1aS.ZdJIh4FgLPLknHVVe7zmv7n/WJB5YshyvWI9Y.17XPZPR9wC",
+      "role": "staff",
+      "phone": "+91 98765 43211",
+      "createdAt": "2026-10-27T16:40:12.854Z",
+      "updatedAt": "2026-10-27T16:40:13.829Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c90003",
+      "name": "Aarav Sharma",
+      "email": "guest@hotelpro.demo",
+      "password": "$2a$12$bn/UIvOySA3foiZCcFxZJurJMdfEy9ceVPXezvSDp4VzyfEfdb456",
+      "role": "guest",
+      "phone": "+91 98765 43212",
+      "createdAt": "2026-10-27T16:40:12.854Z",
+      "updatedAt": "2026-10-27T16:40:13.830Z"
+    }
+  ],
+  "rooms": [
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c91001",
+      "name": "Comfort Standard Suite",
+      "number": "101",
+      "category": "Standard",
+      "description": "A calm, comfortable sanctuary with warm ambient lighting, premium linen, and an ergonomic workspace. Ideal for short business stays and peaceful getaways.",
+      "pricePerNight": 2499,
+      "capacity": 2,
+      "bedType": "Queen Bed",
+      "size": "280 sq ft",
+      "rating": 4.8,
+      "numReviews": 12,
+      "imageUrl": "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80",
+      "status": "available",
+      "amenities": [
+        "High-speed Wi-Fi",
+        "Air Conditioning",
+        "HD Smart TV",
+        "Work Desk",
+        "Complimentary Water",
+        "En-suite Bathroom"
+      ],
+      "updatedAt": "2026-10-27T16:40:13.830Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c91002",
+      "name": "Deluxe City View Haven",
+      "number": "202",
+      "category": "Deluxe",
+      "description": "Floor-to-ceiling windows overlooking the skyline. Features handcrafted oak furniture, an Italian marble bathroom, and plush bathrobes.",
+      "pricePerNight": 4299,
+      "capacity": 2,
+      "bedType": "King Bed",
+      "size": "380 sq ft",
+      "rating": 4.9,
+      "numReviews": 24,
+      "imageUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+      "status": "available",
+      "amenities": [
+        "Panoramic City View",
+        "High-speed Wi-Fi",
+        "Mini Fridge",
+        "Espresso Machine",
+        "Air Conditioning",
+        "Rain Shower",
+        "Safety Locker"
+      ],
+      "updatedAt": "2026-10-27T16:40:13.831Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c91003",
+      "name": "Family Garden Retreat",
+      "number": "303",
+      "category": "Family",
+      "description": "Generously spaced family residence with two interconnected sleeping areas, a private garden balcony, and a child-safe lounge setup.",
+      "pricePerNight": 5899,
+      "capacity": 4,
+      "bedType": "1 King + 2 Twin Beds",
+      "size": "520 sq ft",
+      "rating": 4.9,
+      "numReviews": 18,
+      "imageUrl": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80",
+      "status": "available",
+      "amenities": [
+        "Private Balcony",
+        "High-speed Wi-Fi",
+        "Separate Lounge",
+        "Dining Area",
+        "2x Smart TV",
+        "Mini Fridge",
+        "Complimentary Breakfast"
+      ],
+      "updatedAt": "2026-10-27T16:40:13.831Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c91004",
+      "name": "Royal Presidential Suite",
+      "number": "401",
+      "category": "Suite",
+      "description": "The pinnacle of bespoke luxury. An expansive living room, private bar, Jacuzzi soaking tub, dedicated butler service, and complimentary airport chauffeur.",
+      "pricePerNight": 9499,
+      "capacity": 3,
+      "bedType": "Super King Bed",
+      "size": "780 sq ft",
+      "rating": 5,
+      "numReviews": 31,
+      "imageUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+      "status": "available",
+      "amenities": [
+        "Jacuzzi Tub",
+        "Private Bar",
+        "Butler Service",
+        "24/7 Room Service",
+        "Airport Transfer",
+        "Walk-in Wardrobe",
+        "Balcony Lounge"
+      ],
+      "updatedAt": "2026-10-27T16:40:13.832Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c91005",
+      "name": "Executive Horizon Deluxe",
+      "number": "205",
+      "category": "Deluxe",
+      "description": "Tailored for the discerning executive. Soundproofed walls, high-speed fiber internet, multi-port docking station, and access to the executive lounge.",
+      "pricePerNight": 4699,
+      "capacity": 2,
+      "bedType": "King Bed",
+      "size": "400 sq ft",
+      "rating": 4.7,
+      "numReviews": 9,
+      "imageUrl": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+      "status": "available",
+      "amenities": [
+        "Executive Lounge Access",
+        "High-speed Wi-Fi",
+        "Coffee Bar",
+        "Smart Climate Control",
+        "Premium Toiletries",
+        "Ironing Facilities"
+      ],
+      "updatedAt": "2026-10-27T16:40:13.832Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c91006",
+      "name": "Serene Studio Standard",
+      "number": "105",
+      "category": "Standard",
+      "description": "Modern minimalist decor inspired by Scandinavian design. Efficient layout with cozy reading nook and quiet courtyard view.",
+      "pricePerNight": 2799,
+      "capacity": 2,
+      "bedType": "Queen Bed",
+      "size": "290 sq ft",
+      "rating": 4.6,
+      "numReviews": 14,
+      "imageUrl": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+      "status": "available",
+      "amenities": [
+        "Quiet Courtyard View",
+        "High-speed Wi-Fi",
+        "Air Conditioning",
+        "Work Station",
+        "Electric Kettle",
+        "Hair Dryer"
+      ],
+      "updatedAt": "2026-10-27T16:40:13.833Z"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c92001",
+      "user": "64a1b2c3d4e5f6a7b8c90003",
+      "room": "64a1b2c3d4e5f6a7b8c91001",
+      "checkIn": "2026-10-23T16:40:12.854Z",
+      "checkOut": "2026-10-26T16:40:12.854Z",
+      "guests": 2,
+      "totalAmount": 7497,
+      "status": "checked_out",
+      "paymentStatus": "paid",
+      "paymentMethod": "Credit Card",
+      "transactionId": "TXN-9824-A1",
+      "specialRequests": "Quiet corner room please.",
+      "createdAt": "2026-10-23T16:40:12.854Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c92002",
+      "user": "64a1b2c3d4e5f6a7b8c90003",
+      "room": "64a1b2c3d4e5f6a7b8c91002",
+      "checkIn": "2026-10-26T16:40:12.854Z",
+      "checkOut": "2026-10-29T16:40:12.854Z",
+      "guests": 2,
+      "totalAmount": 12897,
+      "status": "checked_in",
+      "paymentStatus": "paid",
+      "paymentMethod": "UPI",
+      "transactionId": "TXN-7132-B2",
+      "specialRequests": "Late check-in at 8 PM.",
+      "createdAt": "2026-10-26T16:40:12.854Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c92003",
+      "user": "64a1b2c3d4e5f6a7b8c90003",
+      "room": "64a1b2c3d4e5f6a7b8c91004",
+      "checkIn": "2026-11-01T16:40:12.854Z",
+      "checkOut": "2026-11-04T16:40:12.854Z",
+      "guests": 2,
+      "totalAmount": 28497,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentMethod": "Net Banking",
+      "transactionId": "TXN-5541-C3",
+      "specialRequests": "Anniversary stay, floral arrangement requested.",
+      "createdAt": "2026-10-27T16:40:12.854Z"
+    },
+    {
+      "_id": "6115b8d66d7087dfeb66292a",
+      "user": "64a1b2c3d4e5f6a7b8c90003",
+      "room": "64a1b2c3d4e5f6a7b8c91001",
+      "checkIn": "2026-11-15T00:00:00.000Z",
+      "checkOut": "2026-11-18T00:00:00.000Z",
+      "guests": 2,
+      "totalAmount": 7497,
+      "specialRequests": "",
+      "paymentStatus": "paid",
+      "paymentMethod": "CreditCard",
+      "transactionId": "TXN-482304-8634",
+      "status": "confirmed",
+      "createdAt": "2026-10-27T16:44:42.304Z",
+      "updatedAt": "2026-10-27T16:44:42.304Z"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c93001",
+      "user": "64a1b2c3d4e5f6a7b8c90003",
+      "room": "64a1b2c3d4e5f6a7b8c91001",
+      "booking": "64a1b2c3d4e5f6a7b8c92001",
+      "rating": 5,
+      "title": "Exceptional comfort and peace",
+      "comment": "The room was immaculately clean, the bed was divine, and the front desk staff went above and beyond. Will definitely stay here again!",
+      "createdAt": "2026-10-26T16:40:12.854Z"
+    },
+    {
+      "_id": "64a1b2c3d4e5f6a7b8c93002",
+      "user": "64a1b2c3d4e5f6a7b8c90003",
+      "room": "64a1b2c3d4e5f6a7b8c91002",
+      "booking": "64a1b2c3d4e5f6a7b8c92002",
+      "rating": 5,
+      "title": "Breathtaking skyline views",
+      "comment": "Watching sunrise over the city from the 2nd floor window was magic. The espresso machine in the room was a wonderful touch.",
+      "createdAt": "2026-10-27T16:40:12.854Z"
+    }
+  ]
+}

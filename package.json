@@ -1,0 +1,24 @@
+{
+  "name": "hotelpro",
+  "version": "1.0.0",
+  "description": "HotelPro — Complete Fullstack MERN Hotel Management System",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node backend/seed.js",
+    "build": "cd frontend && npm run build",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "hotel-management",
+    "mern",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "HotelPro Team",
+  "license": "MIT"
+}
